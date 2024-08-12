@@ -1,5 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Sqs", "3.Sqs", "{AE28BEE1-B578-439A-B596-D991B9851F5A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Sns", "4.Sns", "{BA648C25-CB9E-4FAA-AF91-86A37CCEA382}"
@@ -12,9 +13,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.SecretsManager", "7.Secre
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8.Lambda", "8.Lambda", "{DC84F474-F046-44B8-8D2E-BCE6A285FDF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqsPublisher", "3.Sqs\SqsPublisher\SqsPublisher.csproj", "{082EC969-6EF8-4F74-AE3D-A8608FD73594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqsConsumer", "3.Sqs\SqsConsumer\SqsConsumer.csproj", "{86C923ED-2169-48B5-9D21-0E86D6A9CCC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{082EC969-6EF8-4F74-AE3D-A8608FD73594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{082EC969-6EF8-4F74-AE3D-A8608FD73594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{082EC969-6EF8-4F74-AE3D-A8608FD73594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{082EC969-6EF8-4F74-AE3D-A8608FD73594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86C923ED-2169-48B5-9D21-0E86D6A9CCC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86C923ED-2169-48B5-9D21-0E86D6A9CCC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86C923ED-2169-48B5-9D21-0E86D6A9CCC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86C923ED-2169-48B5-9D21-0E86D6A9CCC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{082EC969-6EF8-4F74-AE3D-A8608FD73594} = {AE28BEE1-B578-439A-B596-D991B9851F5A}
+		{86C923ED-2169-48B5-9D21-0E86D6A9CCC4} = {AE28BEE1-B578-439A-B596-D991B9851F5A}
 	EndGlobalSection
 EndGlobal
