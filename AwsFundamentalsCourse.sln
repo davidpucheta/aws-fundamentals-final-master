@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqsPublisher", "3.Sqs\SqsPu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqsConsumer", "3.Sqs\SqsConsumer\SqsConsumer.csproj", "{86C923ED-2169-48B5-9D21-0E86D6A9CCC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.Api", "3.Sqs\Customers.Api\Customers.Api.csproj", "{486EB817-7D4A-42CC-91AA-902DE84E8517}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,9 +33,14 @@ Global
 		{86C923ED-2169-48B5-9D21-0E86D6A9CCC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86C923ED-2169-48B5-9D21-0E86D6A9CCC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86C923ED-2169-48B5-9D21-0E86D6A9CCC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{486EB817-7D4A-42CC-91AA-902DE84E8517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{486EB817-7D4A-42CC-91AA-902DE84E8517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{486EB817-7D4A-42CC-91AA-902DE84E8517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{486EB817-7D4A-42CC-91AA-902DE84E8517}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{082EC969-6EF8-4F74-AE3D-A8608FD73594} = {AE28BEE1-B578-439A-B596-D991B9851F5A}
 		{86C923ED-2169-48B5-9D21-0E86D6A9CCC4} = {AE28BEE1-B578-439A-B596-D991B9851F5A}
+		{486EB817-7D4A-42CC-91AA-902DE84E8517} = {AE28BEE1-B578-439A-B596-D991B9851F5A}
 	EndGlobalSection
 EndGlobal
