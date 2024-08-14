@@ -1,4 +1,3 @@
-using System;
 using Customers.Api.Contracts.Messaging;
 using Customers.Api.Domain;
 

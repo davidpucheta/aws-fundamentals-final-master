@@ -1,5 +1,3 @@
-using System;
-
 namespace Customers.Api.Contracts.Messaging;
 
 public class CustomerCreated
